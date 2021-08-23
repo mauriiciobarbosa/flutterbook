@@ -1,5 +1,6 @@
-import 'package:ch4_starter_exercise/widgets/chapter_6_orientation.dart';
 import 'package:flutter/material.dart';
+
+import 'widgets/chapter_7_animated_container.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.lightGreen,
       ),
-      home: OrientationTest(),
+      home: AnimationSample(),
     );
   }
 }
