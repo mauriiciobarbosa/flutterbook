@@ -1,20 +1,22 @@
-import 'package:ch4_starter_exercise/widgets/chapter_4.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_5.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_5_form_validator.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_6_orientation.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_bottom_app_bar_navigation.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_drawer_left.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_drawer_right.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_hero_animation.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_navigator.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_tabbar_bottom.dart';
-import 'package:ch4_starter_exercise/widgets/chapter_8_tabbar_top.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/chapter_4.dart';
+import 'widgets/chapter_5.dart';
+import 'widgets/chapter_5_form_validator.dart';
+import 'widgets/chapter_6_orientation.dart';
 import 'widgets/chapter_7_animated_ballon.dart';
 import 'widgets/chapter_7_animated_container.dart';
 import 'widgets/chapter_7_staggered_animated_ballon.dart';
+import 'widgets/chapter_8_bottom_app_bar_navigation.dart';
 import 'widgets/chapter_8_bottom_bar_navigation.dart';
+import 'widgets/chapter_8_drawer_left.dart';
+import 'widgets/chapter_8_drawer_right.dart';
+import 'widgets/chapter_8_hero_animation.dart';
+import 'widgets/chapter_8_navigator.dart';
+import 'widgets/chapter_8_tabbar_bottom.dart';
+import 'widgets/chapter_8_tabbar_top.dart';
+import 'widgets/chapter_9_card.dart';
+import 'widgets/chapter_9_list_view.dart';
 
 class Home extends StatelessWidget {
   final List<_Item> items = [
@@ -33,6 +35,8 @@ class Home extends StatelessWidget {
     _Item('Chapter 8 - TabBar Top', TabBarTopSample()),
     _Item('Chapter 8 - Drawer Left', DrawerLeftSample()),
     _Item('Chapter 8 - Drawer Right', DrawerRightSample()),
+    _Item('Chapter 9 - Card', CardSample()),
+    _Item('Chapter 9 - ListView', ListViewSample()),
   ];
 
   @override
