@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget {
+class Chapter4 extends StatefulWidget {
   @override
-  _HomeState createState() => _HomeState();
+  _Chapter4State createState() => _Chapter4State();
 }
 
-class _HomeState extends State<Home> {
+class _Chapter4State extends State<Chapter4> {
   int counter = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter Demo Home Page'),
+        title: Text('Flutter Demo Chapter4 Page'),
       ),
       body: SafeArea(
         child: SingleChildScrollView(

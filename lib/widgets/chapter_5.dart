@@ -1,7 +1,7 @@
 import 'package:ch4_starter_exercise/models/todo_menu_item.dart';
 import 'package:flutter/material.dart';
 
-class Home extends StatelessWidget {
+class Chapter5 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -454,7 +454,7 @@ class ImageAndIcons extends StatelessWidget {
           width: MediaQuery.of(context).size.width / 3,
         ),
         Image.network(
-          'https://flutter.dev/images/catalog-widget-placeholder.png',
+          'https://flutter.dev/assets/images/shared/brand/flutter/logo/flutter-lockup.png',
           width: MediaQuery.of(context).size.width / 3,
         ),
         Icon(
