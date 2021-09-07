@@ -1,4 +1,7 @@
-import 'package:ch4_starter_exercise/widgets/chapter_7_staggered_animated_ballon.dart';
+import 'package:ch4_starter_exercise/pages/about.dart';
+import 'package:ch4_starter_exercise/pages/gratitude.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_bottom_bar_navigation.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_hero_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -22,7 +25,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.lightGreen,
       ),
-      home: StaggeredAnimatedBalloonSample(),
+      home: BottomNavigationBarSample(),
+      routes: {
+        '/about': (context) => About(),
+        '/gratitude': (context) => Gratitude(),
+      },
     );
   }
 }
