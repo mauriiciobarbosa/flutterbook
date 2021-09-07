@@ -3,6 +3,8 @@ import 'package:ch4_starter_exercise/widgets/chapter_5.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_5_form_validator.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_6_orientation.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_bottom_app_bar_navigation.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_drawer_left.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_drawer_right.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_hero_animation.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_navigator.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_tabbar_bottom.dart';
@@ -29,6 +31,8 @@ class Home extends StatelessWidget {
     _Item('Chapter 8 - Navigator', NavigatorSample()),
     _Item('Chapter 8 - TabBar Bottom', TabBarBottomSample()),
     _Item('Chapter 8 - TabBar Top', TabBarTopSample()),
+    _Item('Chapter 8 - Drawer Left', DrawerLeftSample()),
+    _Item('Chapter 8 - Drawer Right', DrawerRightSample()),
   ];
 
   @override
