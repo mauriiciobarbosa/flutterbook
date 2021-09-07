@@ -5,6 +5,8 @@ import 'package:ch4_starter_exercise/widgets/chapter_6_orientation.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_bottom_app_bar_navigation.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_hero_animation.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_8_navigator.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_tabbar_bottom.dart';
+import 'package:ch4_starter_exercise/widgets/chapter_8_tabbar_top.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/chapter_7_animated_ballon.dart';
@@ -25,6 +27,8 @@ class Home extends StatelessWidget {
     _Item('Chapter 8 - BottomNavigationBar', BottomNavigationBarSample()),
     _Item('Chapter 8 - Hero animation', HeroAnimationSample()),
     _Item('Chapter 8 - Navigator', NavigatorSample()),
+    _Item('Chapter 8 - TabBar Bottom', TabBarBottomSample()),
+    _Item('Chapter 8 - TabBar Top', TabBarTopSample()),
   ];
 
   @override
