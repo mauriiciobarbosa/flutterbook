@@ -38,9 +38,10 @@ class MenuListTile extends StatelessWidget {
         ),
         Divider(color: Colors.grey),
         ListTile(
-          leading: Icon(Icons.settings),
-          title: Text('Setting'),
+          leading: Icon(Icons.backspace),
+          title: Text('Back'),
           onTap: () {
+            Navigator.pop(context);
             Navigator.pop(context);
           },
         ),
