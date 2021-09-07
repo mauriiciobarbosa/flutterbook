@@ -9,7 +9,6 @@ class BottomNavigationAppBarSample extends StatefulWidget {
 
 class _BottomNavigationAppBarSampleState
     extends State<BottomNavigationAppBarSample> {
-  int _currentIndex = 0;
   List<Widget> _listPages = [];
   late Widget _currentPage;
 
@@ -80,7 +79,6 @@ class _BottomNavigationAppBarSampleState
 
   void _changePage(int selectedIndex) {
     setState(() {
-      _currentIndex = selectedIndex;
       _currentPage = _listPages[selectedIndex];
     });
   }
