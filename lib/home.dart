@@ -16,7 +16,11 @@ import 'widgets/chapter_8_navigator.dart';
 import 'widgets/chapter_8_tabbar_bottom.dart';
 import 'widgets/chapter_8_tabbar_top.dart';
 import 'widgets/chapter_9_card.dart';
+import 'widgets/chapter_9_grid_view_builder.dart';
+import 'widgets/chapter_9_grid_view_count.dart';
+import 'widgets/chapter_9_grid_view_extent.dart';
 import 'widgets/chapter_9_list_view.dart';
+import 'widgets/chapter_9_stack.dart';
 
 class Home extends StatelessWidget {
   final List<_Item> items = [
@@ -37,6 +41,10 @@ class Home extends StatelessWidget {
     _Item('Chapter 8 - Drawer Right', DrawerRightSample()),
     _Item('Chapter 9 - Card', CardSample()),
     _Item('Chapter 9 - ListView', ListViewSample()),
+    _Item('Chapter 9 - GridView - Count', GridViewCountSample()),
+    _Item('Chapter 9 - GridView - Extent', GridViewExtentSample()),
+    _Item('Chapter 9 - GridView - Builder', GridViewBuilderSample()),
+    _Item('Chapter 9 - Stack', StackSample()),
   ];
 
   @override
