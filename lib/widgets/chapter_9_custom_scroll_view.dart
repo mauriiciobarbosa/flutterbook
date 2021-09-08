@@ -25,15 +25,18 @@ class CustomScrollViewSample extends StatelessWidget {
             delegate: SliverChildListDelegate(
               List.generate(
                 12,
-                (index) => ListTile(
-                  leading: CircleAvatar(
-                    child: Text('${index + 1}'),
-                    backgroundColor: Colors.lightGreen,
-                    foregroundColor: Colors.white,
+                (index) => InkWell(
+                  child: ListTile(
+                    leading: CircleAvatar(
+                      child: Text('${index + 1}'),
+                      backgroundColor: Colors.lightGreen,
+                      foregroundColor: Colors.white,
+                    ),
+                    title: Text('Row ${index + 1}'),
+                    subtitle: Text('Subtitle Row ${index + 1}'),
+                    trailing: Icon(Icons.star_border),
                   ),
-                  title: Text('Row ${index + 1}'),
-                  subtitle: Text('Subtitle Row ${index + 1}'),
-                  trailing: Icon(Icons.star_border),
+                  onTap: () => print('Row ${index + 1} clicked'),
                 ),
               ),
             ),
@@ -43,14 +46,17 @@ class CustomScrollViewSample extends StatelessWidget {
               delegate: SliverChildBuilderDelegate(
                 (context, index) {
                   return Card(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.child_friendly,
-                            size: 48, color: Colors.amber),
-                        Divider(),
-                        Text('Grid ${index + 1}'),
-                      ],
+                    child: InkWell(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.child_friendly,
+                              size: 48, color: Colors.amber),
+                          Divider(),
+                          Text('Grid ${index + 1}'),
+                        ],
+                      ),
+                      onTap: () => print('Card ${index + 1} clicked'),
                     ),
                   );
                 },
