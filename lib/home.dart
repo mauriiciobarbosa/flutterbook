@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'widgets/chapter_10_layouts.dart';
 import 'widgets/chapter_4.dart';
 import 'widgets/chapter_5.dart';
 import 'widgets/chapter_5_form_validator.dart';
@@ -47,6 +48,7 @@ class Home extends StatelessWidget {
     _Item('Chapter 9 - GridView - Builder', GridViewBuilderSample()),
     _Item('Chapter 9 - Stack', StackSample()),
     _Item('Chapter 9 - Custom Scroll View', CustomScrollViewSample()),
+    _Item('Chapter 10 - Complex Layout', ComplexLayoutSample()),
   ];
 
   @override
