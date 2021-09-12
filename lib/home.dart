@@ -1,6 +1,9 @@
+import 'package:ch4_starter_exercise/widgets/chapter_11_gestures_drag_drop.dart';
 import 'package:flutter/material.dart';
 
 import 'widgets/chapter_10_layouts.dart';
+import 'widgets/chapter_11_dismissible.dart';
+import 'widgets/chapter_11_gestures_scale.dart';
 import 'widgets/chapter_4.dart';
 import 'widgets/chapter_5.dart';
 import 'widgets/chapter_5_form_validator.dart';
@@ -49,6 +52,9 @@ class Home extends StatelessWidget {
     _Item('Chapter 9 - Stack', StackSample()),
     _Item('Chapter 9 - Custom Scroll View', CustomScrollViewSample()),
     _Item('Chapter 10 - Complex Layout', ComplexLayoutSample()),
+    _Item('Chapter 11 - Gestures - Drag and Drop', GesturesDragAndDrop()),
+    _Item('Chapter 11 - Gestures - Scale', GesturesScale()),
+    _Item('Chapter 11 - Gestures - Dismissible', GesturesDismissible()),
   ];
 
   @override
