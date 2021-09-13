@@ -1,3 +1,4 @@
+import 'package:ch4_starter_exercise/widgets/appendx_flexible_sample.dart';
 import 'package:ch4_starter_exercise/widgets/chapter_11_gestures_drag_drop.dart';
 import 'package:flutter/material.dart';
 
@@ -55,6 +56,7 @@ class Home extends StatelessWidget {
     _Item('Chapter 11 - Gestures - Drag and Drop', GesturesDragAndDrop()),
     _Item('Chapter 11 - Gestures - Scale', GesturesScale()),
     _Item('Chapter 11 - Gestures - Dismissible', GesturesDismissible()),
+    _Item('Appendix - Flexible', FlexibleSample()),
   ];
 
   @override
