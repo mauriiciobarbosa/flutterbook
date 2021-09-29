@@ -8,7 +8,7 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     let flutterViewController: FlutterViewController = window?.rootViewController as! FlutterViewController
-    let deviceInfoChannel = FlutterMethodChannel(name: "platormchannel.mauricio.com/deviceinfo", binaryMessenger: flutterViewController as! FlutterBinaryMessenger)
+    let deviceInfoChannel = FlutterMethodChannel(name: "platformchannel.mauricio.com/deviceinfo", binaryMessenger: flutterViewController as! FlutterBinaryMessenger)
     deviceInfoChannel.setMethodCallHandler({
         (call: FlutterMethodCall, result: FlutterResult) -> Void in
         if (call.method == "getDeviceInfo") {

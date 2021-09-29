@@ -8,7 +8,7 @@ class ChannelsSample extends StatefulWidget {
 
 class _ChannelsSampleState extends State<ChannelsSample> {
   static const _methodChannel =
-      MethodChannel('platormchannel.mauricio.com/deviceinfo');
+      MethodChannel('platformchannel.mauricio.com/deviceinfo');
   String _deviceInfo = '';
 
   @override
